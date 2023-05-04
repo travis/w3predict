@@ -35,7 +35,7 @@ export function SpaceCreatorForm ({
       setSubmitted(true)
       try {
         await createSpace(name)
-        await registerSpace(account, { provider: import.meta.env.VITE_W3UP_PROVIDER })
+        await registerSpace(account)
       } catch (error) {
         /* eslint-disable no-console */
         console.error(error)
