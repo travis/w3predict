@@ -17,7 +17,7 @@ export function SpaceEnsurer ({
   } else {
     return (
       <div className="flex flex-col justify-center items-center h-screen">
-        <div className="text-black text-center">
+        <div className="text-center bg-black/60 rounded p-12">
           <h1 className="my-4 text-lg">Welcome {account}!</h1>
           <p>
             To get started with w3predict you will need to create a space.

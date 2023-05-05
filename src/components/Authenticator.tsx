@@ -12,7 +12,7 @@ export function AuthenticationForm (): JSX.Element {
   console.log(email)
   return (
     <div className='authenticator'>
-      <AuthCore.Form className='text-white/80 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl shadow-md px-10 pt-8 pb-8'>
+      <AuthCore.Form className='text-white/80 bg-gradient-to-br from-blue-500/80 to-cyan-500/80 rounded-xl shadow-md px-10 pt-8 pb-8'>
         <div className='flex flex-row gap-4 mb-8 flex justify-center gap-4'>
           <Logo />
         </div>
