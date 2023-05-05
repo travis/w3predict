@@ -39,7 +39,7 @@ export function AuthenticationSubmitted (): JSX.Element {
     <div className='authenticator'>
       <div className='text-white bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl shadow-md px-10 pt-8 pb-8'>
         <div className='flex flex-row gap-4 mb-8 flex justify-center gap-4'>
-          <Logo className='w-36' />
+          <Logo />
         </div>
         <h1 className='text-xl font-semibold'>Verify your email address!</h1>
         <p className='pt-2 pb-4'>

@@ -20,7 +20,7 @@ export function SpaceEnsurer ({
         <div className="text-black text-center">
           <h1 className="my-4 text-lg">Welcome {account}!</h1>
           <p>
-            To get started with w3predict you'll need to create a space.
+            To get started with w3predict you will need to create a space.
           </p>
           <p>
             Give it a name and hit create!

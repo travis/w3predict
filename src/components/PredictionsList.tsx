@@ -15,7 +15,7 @@ function Predictions ({ uploads, loading }: PredictionsProps): JSX.Element {
     return (
       <>
         {uploads?.map(({ root }) => (
-          <PredictionLink cid={root}>{root.toString()}</PredictionLink>
+          <PredictionLink key={root.toString()} cid={root}>{root.toString()}</PredictionLink>
         ))}
       </>
     )

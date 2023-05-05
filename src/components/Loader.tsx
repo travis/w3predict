@@ -1,5 +1,7 @@
 import { ArrowPathIcon } from '@heroicons/react/20/solid'
 
-export default ({ className = '' }: { className?: string }) => (
+const Loader = ({ className = '' }: { className?: string }) => (
   <ArrowPathIcon className={`animate-spin ${className}`} />
 )
+
+export default Loader
