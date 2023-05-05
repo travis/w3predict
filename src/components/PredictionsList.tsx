@@ -26,7 +26,7 @@ export default function PredictionsList () {
   return (
     <UploadsList>
       {(props) => (
-        <div className='mb-5 flex flex-col'>
+        <div className='mb-5 flex flex-col text-2xl font-bold max-w-4/5 space-y-6 px-6'>
           <Predictions uploads={props.uploadsList?.[0].data} loading={props.uploadsList?.[0].loading ?? false} />
         </div>
       )}
